@@ -37,7 +37,7 @@
 
 <view class="btn-area">
   <button bindtap="fsb">11</button>
-    <button bindtap="upld">提交</button>
+    <button bindtap="upldd">提交</button>
     <button bindtap="upld">提交</button>
     <button formType="reset">Reset</button>
 
