@@ -1,0 +1,31 @@
+.top{
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 50rpx;
+  margin-bottom: 30rpx;
+}
+.cont{
+display: -webkit-flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+}
+.cont text{
+  margin-left: 20rpx;
+  width: 30%;
+}
+.cont input{
+  border: 1px solid #f0f;
+  /* font-size:30rpx; */
+  width: 300rpx;
+}
+
+.section view{
+   width: 300rpx; 
+  height: 50rpx;
+  border: 1px solid #f0f;
+  /* font-size:30rpx; */
+}
+.section{
+  width: 60%;
+}

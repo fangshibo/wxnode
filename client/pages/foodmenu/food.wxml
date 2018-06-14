@@ -1,0 +1,45 @@
+<view>
+<text class='top'>菜品管理</text>
+</view>
+
+<view>
+<view class="cont">
+  <text  >菜品名：</text>
+  <input name="food"></input>
+</view>
+<view class="cont">
+  <text  >类  别：</text>
+  <view class="section">
+
+  <picker bindchange="bindPickerChange" value=" {{cls[index]}}" range="{{cls}}" name="cals">
+    <view class="picker">
+     {{cls[index]}}
+    </view>
+  </picker>
+</view>
+</view>
+<view class="cont">
+  <text  >价 格 ：</text>
+  <input name="price"></input>
+</view>
+<view class="cont">
+  <text  >图片：</text>
+  <input name="img" bindtap="doUpload" value='{{imgUrl}}'></input>
+
+</view>
+<view>
+  <image  class="uploader-image"
+                src="{{imgUrl}}"
+                mode="aspectFit"
+                bindtap="previewImg"></image>
+</view>
+</view>
+
+<view class="btn-area">
+  <button bindtap="fsb">11</button>
+    <button bindtap="upld">提交</button>
+    <button bindtap="upld">提交</button>
+    <button formType="reset">Reset</button>
+
+  
+  </view>
