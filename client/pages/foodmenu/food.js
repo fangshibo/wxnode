@@ -45,8 +45,8 @@ Page({
         'content-type': 'application/json' // 默认值
       },
       success: function (res) {
-        
-        console.log(res)
+        var aab=res.data
+        console.log(aab[1])
         
       }
     })

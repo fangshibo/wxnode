@@ -11,9 +11,9 @@
   <text  >类  别：</text>
   <view class="section">
 
-  <picker bindchange="bindPickerChange" value=" {{cls[index]}}" range="{{cls}}" name="cals">
+  <picker bindchange="bindPickerChange" value=" {{cls[index].clsname}}" range="{{cls}}" range-key='clsname' name="cals">
     <view class="picker">
-     {{cls[index]}}
+     {{cls[index].clsname}}
     </view>
   </picker>
 </view>

@@ -29,3 +29,6 @@ display: -webkit-flex;
 .section{
   width: 60%;
 }
+picker{
+  width: 200rpx;
+}
